@@ -14,7 +14,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build
-      run: jar cvf SpiderHost.war .
+      run: jar cvf demo.war .
       
     - name: List files
       run: ls
